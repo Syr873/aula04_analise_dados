@@ -10,13 +10,13 @@
 
 #Atividade 02
 #Liberaçao de pedido
-qtd_disponivel = int(input("Informe a quantidade diponivel em estoque: "))
-qtd_cliente = int(input('Informe o pedido do cliente: '))
-peso = float(input('Informe o peso total do pedido: '))
-if qtd_disponivel >= qtd_cliente:
-    if peso <= 50:
-        print('Pedido enviado!')
-    else:
-        print('Pedido não pode ser enviado! Muito pesado...')
-else:
-    print('Pedido não pode ser enviado! Não há a quantidade disponível em estoque...')
+# qtd_disponivel = int(input("Informe a quantidade diponivel em estoque: "))
+# qtd_cliente = int(input('Informe o pedido do cliente: '))
+# peso = float(input('Informe o peso total do pedido: '))
+# if qtd_disponivel >= qtd_cliente:
+#     if peso <= 50:
+#         print('Pedido enviado!')
+#     else:
+#         print('Pedido não pode ser enviado! Muito pesado...')
+# else:
+#     print('Pedido não pode ser enviado! Não há a quantidade disponível em estoque...')
